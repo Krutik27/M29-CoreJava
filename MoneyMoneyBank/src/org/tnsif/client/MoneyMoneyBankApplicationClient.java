@@ -10,8 +10,8 @@ import org.tnsif.framework.BankFactory;
 public class MoneyMoneyBankApplicationClient{
 	public static void main(String[] args) {
 		BankFactory b = new MMBankFactory();
-		SavingAcc s = new MMSavingAcc(678, "Kinnari N. Patil", 90, true);
-		CurrentAcc c = new MMCurrentAcc(90, "Dr. Kajri N. Patil", 89, 90);
+		SavingAcc s = new MMSavingAcc(678, "Krutik Patil", 90, true);
+		CurrentAcc c = new MMCurrentAcc(90, "Akshay Patil", 89, 90);
 		System.out.println("Savings Account");
 		s.withdraw(s.getAccBal());
 		System.out.println("Current Account");
